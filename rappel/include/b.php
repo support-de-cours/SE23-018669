@@ -1,0 +1,1 @@
+<div>B (in div)</div>

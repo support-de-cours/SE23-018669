@@ -1,0 +1,15 @@
+ceci-est-une-chaine-slug
+ceci_est_une_chaine_snake
+ceciEstUneChaineLowerCamelCase
+CeciEstUneChaineUpperCamelCase
+
+
+
+Notice 
+Warning
+Fatal Error
+
+
+
+interface AA {}
+interface BB extends AA {}

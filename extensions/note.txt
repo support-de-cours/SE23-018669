@@ -1,0 +1,21 @@
+Apache Conf
+Auto Rename Tag
+Better Align
+Better Comments
+Bookmarks
+Cobalt2
+Code Spell Checker
+Database Client
+DotENV
+Google Translate
+Material Icon Theme
+Multiple Cursor Case preserve
+NGINX Configuration
+PHP DocBlocker
+PHP Getters & Setters
+PHP Intelephense
+PHP Namespace Resolver
+Region Viewer
+Show Ping
+Thunder Client
+Todo+
