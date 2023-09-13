@@ -1,0 +1,12 @@
+{
+    "name": "arnaud/exemple-composer",
+    "description": "Mon projet test",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "osw3/url-parser-php": "^0.0.6"
+    }
+}

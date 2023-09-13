@@ -1,0 +1,46 @@
+{
+    "packages": [
+        {
+            "name": "osw3/url-parser-php",
+            "version": "0.0.6",
+            "version_normalized": "0.0.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/OSW3/url-parser-php.git",
+                "reference": "e2e1493099f606f8ef6fc664e7fdcfc505225c63"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OSW3/url-parser-php/zipball/e2e1493099f606f8ef6fc664e7fdcfc505225c63",
+                "reference": "e2e1493099f606f8ef6fc664e7fdcfc505225c63",
+                "shasum": ""
+            },
+            "time": "2023-07-26T10:56:05+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "OSW3\\UrlParser\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "OSW3",
+                    "email": "contact@osw3.net"
+                }
+            ],
+            "description": "Provides a simple HTTP-Client",
+            "support": {
+                "issues": "https://github.com/OSW3/url-parser-php/issues",
+                "source": "https://github.com/OSW3/url-parser-php/tree/0.0.6"
+            },
+            "install-path": "../osw3/url-parser-php"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

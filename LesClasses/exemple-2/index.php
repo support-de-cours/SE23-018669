@@ -10,6 +10,11 @@ require_once "Truck.php";
 $car1 = new Car("Ford", "Ranger");
 $car2 = new Car("Toyota", "Hilux");
 
+// $a = "azert";
+// // echo gettype($a);
+// echo "<br>";
+// echo get_debug_type($a);
+
 $truck1 = new Truck("MAN", "2");
 $truck2 = new Truck("KenWorth", "3");
 
