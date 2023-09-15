@@ -3,8 +3,21 @@ ceci_est_une_chaine_snake
 ceciEstUneChaineLowerCamelCase
 CeciEstUneChaineUpperCamelCase
 
+index   SELECT All
+Create  Insert Into
+Read    Select where id=x
+Update  Update
+Delete  Delete
 
-MVC
+
+
+
+
+crsf token 
+HTTP Methods
+
+
+Git Branch
 
 
 

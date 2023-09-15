@@ -1,0 +1,52 @@
+// https://practicalprogramming.fr/api-rest/
+// https://medium.com/@bojanmajed/standard-json-api-response-format-c6c1aabcaa6d
+{
+    "success": true,
+    "message": "User logged in successfully",
+    // "error_code": 1306,
+
+    "meta": {
+        "totalPages": 13
+    },
+  
+    // data / restults / entityName (employees)
+    "data": {
+        "employees": [
+            {
+                "id": 1,
+                "first_name": "Sebastian",
+                "last_name": "Eschweiler",
+                "email": "sebastian@codingthesmartway.com",
+                "url": "https://exemple.com/api/v2/users/1"
+            },
+            {
+                "id": 2,
+                "first_name": "Steve",
+                "last_name": "Palmer",
+                "email": "steve@codingthesmartway.com",
+                "url": "https://exemple.com/api/v2/users/2"
+            },
+            {
+                "id": 3,
+                "first_name": "Ann",
+                "last_name": "Smith",
+                "email": "ann@codingthesmartway.com",
+                "url": "https://exemple.com/api/v2/users/3"
+            }
+        ]
+    },
+
+    // Pagination
+    "pagination": {
+        "page": 1, 
+        "pages": 30, 
+        "items": 2255, 
+        "per_page": 3, 
+        "self": "https://example.com/api/v2/articles?page[number]=3&page[size]=1",
+        "first": null,
+        "prev": "https://example.com/api/v2/articles?page[number]=2&page[size]=1",
+        "next": "https://example.com/api/v2/articles?page[number]=4&page[size]=1",
+        "last": "https://example.com/api/v2/articles?page[number]=13&page[size]=1"
+    }
+}
+  

@@ -1,19 +1,18 @@
-<xml>
-    <users>
-        <user>
-            <firstname>john</firstname>
-            <lastname>doe</lastname>
-            <email>john@doe.com</email>
-        </user>
-        <user>
-            <firstname>bruce</firstname>
-            <lastname>wayne</lastname>
-            <email>bruce@wayne-enterprise.net</email>
-        </user>
-        <user>
-            <firstname>bob</firstname>
-            <lastname>sponge</lastname>
-            <email>spongebob@bikinibottom.lol</email>
-        </user>
-    </users>
-</xml>
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+    <user>
+        <firstname>john</firstname>
+        <lastname>doe</lastname>
+        <email>john@doe.com</email>
+    </user>
+    <user>
+        <firstname>bruce</firstname>
+        <lastname>wayne</lastname>
+        <email>bruce@wayne-enterprise.net</email>
+    </user>
+    <user>
+        <firstname>bob</firstname>
+        <lastname>sponge</lastname>
+        <email>spongebob@bikinibottom.lol</email>
+    </user>
+</users>

@@ -4,7 +4,23 @@
 // require_once "src/Car.php";
 // require_once "src/Truck.php";
 
-function autochargement($className)
+// function autochargement($className)
+// {
+//     $className = str_replace("\\", "/", $className);
+
+//     $file = $className . ".php";
+
+//     print_r( "Class Name : " . $file . " !!!" );
+
+//     require_once $file;
+
+// }
+
+// spl_autoload_register('autochargement');
+
+
+
+spl_autoload_register(function($className)
 {
     $className = str_replace("\\", "/", $className);
 
@@ -14,9 +30,7 @@ function autochargement($className)
 
     require_once $file;
 
-}
-
-spl_autoload_register('autochargement');
+});
 
 
 use \src\Controller\Car;
